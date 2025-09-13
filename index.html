@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Navon Hatfield | Portfolio</title>
-  <!-- Link to CSS -->
-  <link rel="stylesheet" href="style.css">
+  <!-- Link to CSS (calm modern theme) -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <!-- Navbar -->
@@ -21,9 +21,11 @@
 
   <!-- Hero Section -->
   <section id="home" class="hero">
-    <h1>Hi, I'm Navon 👋</h1>
-    <p>24-year-old Beginner Web Developer | Cybersecurity Student</p>
-    <a href="#projects" class="btn">View My Work</a>
+    <div class="hero-inner">
+      <h1>Hi, I'm Navon 👋</h1>
+      <p class="subtitle">24-year-old Beginner Web Developer • Cybersecurity Student • Python & Blender enthusiast</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
   </section>
 
   <!-- Projects Section -->
@@ -34,24 +36,24 @@
       <!-- Portfolio Project -->
       <div class="card">
         <h3>My Portfolio Website</h3>
-        <p>This very website! Built with HTML, CSS, and JavaScript to showcase my projects and skills.</p>
+        <p>This site — built with HTML, CSS, and JavaScript to showcase my projects and skills.</p>
         <div class="card-buttons">
-          <a href="https://moonergooner.github.io/portfolio/" target="_blank" class="btn">🌐 Live Demo</a>
-          <a href="https://github.com/Moonergooner/portfolio" target="_blank" class="btn secondary">💻 GitHub Repo</a>
+          <a href="https://moonergooner.github.io/portfolio/" target="_blank" rel="noopener" class="btn">🌐 Live Demo</a>
+          <a href="https://github.com/Moonergooner/portfolio" target="_blank" rel="noopener" class="btn secondary">💻 GitHub Repo</a>
         </div>
       </div>
 
-      <!-- Example Project -->
+      <!-- To-Do Demo App -->
       <div class="card">
-        <h3>To-Do App</h3>
-        <p>A simple to-do list app built to practice JavaScript fundamentals.</p>
+        <h3>To-Do Demo App</h3>
+        <p>A simple task manager built with HTML, CSS, and JavaScript for practicing interactivity and state handling.</p>
         <div class="card-buttons">
-          <a href="https://moonergooner.github.io/todo-app/" target="_blank" class="btn">🌐 Live Demo</a>
-          <a href="https://github.com/Moonergooner/todo-app" target="_blank" class="btn secondary">💻 GitHub Repo</a>
+          <a href="https://moonergooner.github.io/To-Do-demo-app/" target="_blank" rel="noopener" class="btn">🌐 Live Demo</a>
+          <a href="https://github.com/Moonergooner/To-Do-demo-app" target="_blank" rel="noopener" class="btn secondary">💻 GitHub Repo</a>
         </div>
       </div>
 
-      <!-- Future Projects -->
+      <!-- Future Project: Blog Pages -->
       <div class="card">
         <h3>Blog Pages</h3>
         <p>A blog platform where I’ll share posts about web development, cybersecurity, and my learning journey.</p>
@@ -60,17 +62,19 @@
         </div>
       </div>
 
+      <!-- Future Project: Website Builder -->
       <div class="card">
         <h3>Website Builder</h3>
-        <p>A tool to help people build their own websites easily, with templates and drag-and-drop features.</p>
+        <p>A beginner-friendly tool with templates and drag-and-drop features to help people build sites quickly.</p>
         <div class="card-buttons">
           <a href="#" class="btn">🚧 Coming Soon</a>
         </div>
       </div>
 
+      <!-- Future Project: Custom AI Website -->
       <div class="card">
         <h3>Custom AI Website</h3>
-        <p>A project exploring artificial intelligence by creating a custom AI-powered website.</p>
+        <p>Exploring AI-powered web features — chat, recommendations, or automation integrated into a web app.</p>
         <div class="card-buttons">
           <a href="#" class="btn">🚧 Coming Soon</a>
         </div>
@@ -83,9 +87,10 @@
   <section id="about" class="section">
     <h2>About Me</h2>
     <p>
-      My name is Navon Hatfield. I’m 24 years old, a beginner web developer, and currently studying cybersecurity. 
-      I enjoy building websites and exploring how technology can be used to solve problems. 
-      My goal is to grow my skills in both web development and cybersecurity.
+      My name is <strong>Navon Hatfield</strong>. I’m 24 years old — a beginner web developer currently studying
+      cybersecurity. I code with <strong>HTML, CSS, JavaScript, and Python</strong>, build 3D models in
+      <strong>Blender</strong>, and enjoy combining creativity with security-minded development. I also take freelance
+      projects focused on beginner-friendly web builds, data work, and green tech solutions.
     </p>
   </section>
 
@@ -93,8 +98,8 @@
   <section id="contact" class="section">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:navonhatfield0@gmail.com">navonhatfield0@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/Moonergooner" target="_blank">Moonergooner</a></p>
-    <p>LinkedIn: <a href="#" target="_blank">linkedin.com/in/navonhatfield</a></p>
+    <p>GitHub: <a href="https://github.com/Moonergooner" target="_blank" rel="noopener">Moonergooner</a></p>
+    <p>LinkedIn: <a href="#" target="_blank" rel="noopener">linkedin.com/in/navonhatfield</a></p>
   </section>
 
   <!-- Footer -->
@@ -102,7 +107,7 @@
     <p>© 2025 Navon Hatfield</p>
   </footer>
 
-  <!-- Link to JavaScript -->
+  <!-- Link to JavaScript (smooth scrolling + nav highlight) -->
   <script src="script.js"></script>
 </body>
 </html>
